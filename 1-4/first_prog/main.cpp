@@ -11,8 +11,16 @@ int main()
 
     int userQI(153);
     string userName("Albert Einstein");
+    int& userQIRef(userQI);
 
-    cout << "Vous vous appelez " << userName << " et votre QI est de " << userQI << endl;
+    cout << "Vous vous appelez " << userName << " et votre QI est de " << userQI << " (via variable)" << endl;
+    cout << "Vous vous appelez " << userName << " et votre QI est de " << userQIRef << " (via référence)" << endl;
+
+    userQI++;
+
+    cout << endl;
+    cout << "Vous vous appelez " << userName << " et votre QI est de " << userQI << " (via variable)" << endl;
+    cout << "Vous vous appelez " << userName << " et votre QI est de " << userQIRef << " (via référence)" << endl;
 
     return 0;
 }
