@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1477946936 source:/media/Docs/DEV/C++/OpenClassRoom/1-4/first_prog/main.cpp
+	<iostream>
+	<string>
+
